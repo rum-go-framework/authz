@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/4Sigma/authz"
+	"github.com/rum-go-framework/authz"
 )
 
 // testUser is the subject type used across the tests, playing the role of an

@@ -1,4 +1,4 @@
-module github.com/4Sigma/authz
+module github.com/rum-go-framework/authz
 
 go 1.23
 

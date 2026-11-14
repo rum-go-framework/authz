@@ -47,7 +47,7 @@ func allowedImport(file, target string) bool {
 		return true
 	}
 	// The library may import itself (tests do).
-	if target == "github.com/4Sigma/authz" || strings.HasPrefix(target, "github.com/4Sigma/authz/") {
+	if target == "github.com/rum-go-framework/authz" || strings.HasPrefix(target, "github.com/rum-go-framework/authz/") {
 		return true
 	}
 	// zerologadapter exists to bridge zerolog, so it alone may import it.

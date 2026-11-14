@@ -47,7 +47,7 @@ package main
 import (
   "context"
 
-  "github.com/4Sigma/authz"
+  "github.com/rum-go-framework/authz"
 )
 
 type User struct {
@@ -342,8 +342,8 @@ wraps a `*zerolog.Logger` as a `slog.Handler`:
 import (
   "log/slog"
 
-  "github.com/4Sigma/authz"
-  "github.com/4Sigma/authz/zerologadapter"
+  "github.com/rum-go-framework/authz"
+  "github.com/rum-go-framework/authz/zerologadapter"
 )
 
 engine := authz.NewEngine[string, string, *User](
